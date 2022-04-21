@@ -1,77 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Alex Jorba</title>
-<link>
+<meta name="viewport" content="width-device-widtj, initial-scale=1.0">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+<title>Portfolio Alex Jorba</title>
 </head>
-<style>
-    body{
-        background: rgb(0,249,255);
-        background: radial-gradient(circle, rgba(0,249,255,1) 0%, rgba(5,104,174,1) 34%, rgba(9,9,121,1) 48%, rgba(72,5,132,1) 64%, rgba(127,2,142,1) 86%);
-    }
+<body>
 
-    #container{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        height: 100%;
-        justify-content: flex-end;
-    }
-    .content_img{
-        flex: 1 200px;
-        width: 300px;
-        height: 500px;
 
-    }
-     .content_txt{
-       flex: 2 400px;
-         padding:100px;
-         color:white;
-         margin-right: 100px;
 
-    }
-    {
+<div class="grid-container">
+  <div class="item1">
+    <div class="containerbtn">
+        <a href="#inici"><span class="btn" style="left:5%;"> INICI </span> </a>
+        <a href="#treballs"><span class="btn" style="left:30%;">TREBALLS</span></a>
+        <a href="#about"><span class="btn" style="left:55%;">SOBRE MI</span></a>
+        <a href="#contact"><span class="btn" style="left:80%;">CONTACTE</span></a>
+    </div>
+    <div class="imatge">
+      <button class="rainbow" type="button"></button>
+      <img src="imgs/banner.png" width="100%">
         
-    }
-    p,h1,ul{
-        opacity: 0.5;
-    background-color: black;   
-    color: white;
-        font-family: 'Roboto', sans-serif;
-        font-family: 'Audiowide', cursive;  
-    }
-</style>
-    <body bgcolor="FFFFFF">
-        <div id="container">
-            <div class="content_img">
-                    <img src="imgs/parapent.gif" width="90%" alt="rotoscòpia">
-            </div>
-            <div class="content_txt">
-              <h1>Em dic Alex Jorba</h1>
-                <p><strong>Tinc 20 anys</strong> i estic estudiant un Grau Superior de Modelatge i Animació 3D a la UVic. Actualment visc a Berga i els ultims tres anys he estat treballant al món de la hosteleria en un restaurant de muntanya. M'agradaria especialitzar-me amb un sector del món del 3d que em senti realitzat i que pugui potenciar les meves capacitats
-                </p>
-                <p><strong>Aficions</strong>
-                    <ul>
-                        <li>Fanàtic del món automovilistic</li>
-                        <li>Endisar-me en jocs realistes</li>
-                        <li>Els Cubs de Rubik</li>
-                        <li>Improvitzar rutes amb bici</li>
-                    </ul> 
-                </p>
-                  <p><strong>Més Informació</strong>
-                    <ul>
-                        <li>Carnet de conduir</li>
-                        <li>Instal·lador de plaques solars</li>
-                    </ul> 
-                </p>
-            <left>    
-                <a href="https://www.behance.net/al-extintor/"><img src="imgs/be.svg" width=30px; alt="logo behance"></a>  
-                <a href="mailto:alexuserlaptop@gmail.com"><img src="imgs/arroba.png" width=28px; alt="arroba"></a>
-            </left>
+      </div>
+    <div class="espacio" id="inici">
+    </div>
+  </div>
+  <div class="item2">
+  </div>
+  <div class="item3">
+    <img class="whiteline" src="imgs/line.png">
+    <h1 class="titols" id="treballs">TREBALLS VISUALS</h1>
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="imgs/shark.png">
+            <img src="imgs/shark.png" alt="1" width="1920" height="1080">
+          </a>
+          <div class="desc" style="background-image: url(imgs/zbrush.png);  background-repeat: no-repeat; background-size:contain;">Shark Head</div>
         </div>
-    </body> 
+      </div>
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="imgs/cube.png">
+            <img src="imgs/cube.png" alt="2" width="1920" height="1080">
+          </a>
+          <div class="desc" style="background-image: url(imgs/maya.jpg);  background-repeat: no-repeat; background-size:contain;">Rubik's Cube</div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="imgs/akaj.jpg">
+            <img src="imgs/akaj.jpg" alt="3" width="1920" height="1080">
+          </a>
+          <div class="desc" style="background-image: url(imgs/maya.jpg); background-repeat: no-repeat; background-size:contain;">Fusil Ak-47</div>
+        </div>
+      </div>
+
+      <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="imgs/theforest.png">
+          <img src="imgs/theforest.png" alt="3" width="1920" height="1080">
+        </a>
+        <div class="desc" style="background-image: url(imgs/photoshop.png);  background-repeat: no-repeat; background-size:contain;">Descripció</div>
+      </div>
+    </div>
+
+     <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="imgs/metro.png">
+            <img src="imgs/metro.png" alt="3" width="1920" height="1080">
+          </a>
+          <div class="desc" style="background-image: url(imgs/illustrator.png);  background-repeat: no-repeat; background-size:contain;">Mapa del Metro de Barcelona</div>
+        </div>
+      </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="imgs/Torrance.png">
+            <img src="imgs/Torrance.png" alt="3" width="1920" height="1080">
+          </a>
+          <div class="desc" style="background-image: url(imgs/illustrator.png);  background-repeat: no-repeat; background-size:contain;">Torrance a partir de circumferències</div>
+        </div>
+      </div>
+<h1 class="titols">TREBALLS AUDIOVISUALS</h1>
+     <div class="responsive">
+        <div class="gallery">
+          <video width="935" controls>
+    <source src="video/Pigeon_AlexJorba.mp4" type="video/mp4">
+    <source src="video/Pigeon_AlexJorba.ogg" type="video/ogg">
+    Your browser does not support HTML video.
+    </video>
+          <div class="desc" style="background-image: url(imgs/after.png);  background-repeat: no-repeat; background-size:contain;"> Pidgeon Animation</div>
+        </div>
+      </div>
+
+     <div class="responsive">
+        <div class="gallery">
+          <video width="701" controls>
+    <source src="video/JapaneseDrift.mp4" type="video/mp4">
+    <source src="video/JapaneseDrift.ogg" type="video/ogg">
+    Your browser does not support HTML video.
+    </video>
+          <div class="desc" style="background-image: url(imgs/premiere.png);  background-repeat: no-repeat; background-size:contain;">Stop Motion - Treball conjunt amb Quim Martin</div>
+        </div>
+      </div>
+    
+      
+  <div class="clearfix"></div>
+    
+  </div>  
+  <div class="item4">
+    <div  class="logo">
+      <img src="imgs/gifLogo.gif" width="100%">
+    </div>
+  </div>
+  <div class="item5">
+    <div  class="textwelcome">
+      <img src="imgs/welcometext.gif" width="100%">
+    </div>
+  </div>
+  <div class="item6" style="color: white;">
+    <h1 class="titols titol2" id="about">SOBRE MI</h1>
+
+    <div class="sobremi">
+      <p>M'apassionen totes les eines relacionades amb el dibuix vectorial, edició de vídeo, modelat 3D i sobretot edició d'imatge. Sempre intento polir al màxim cada detall per aconseguir el millor resultat dins dels meus coneixements, i tenir un aprenentatge constant per abastar més programes i tècniques, alguns dels programes que utilitzo habitualment són Photoshop, Illustrator, After Effects, Premiere Pro, Paint.net, Maya, 3ds Max, 3dSimed, Substance Painter entre d'altres.</p>
+      <div class="sobremiimg">
+        <img src="imgs/about.png" width="100%">
+      </div>
+    </div>
+    <h1 class="titols titol2" id="contact">CONTACTE</h1>
+    <div>
+      <a class="mail"href="mailto:mail@mail.com?subject=Contacte Portfoli"><img src="imgs/arr.png"></a><p class="textes">Contacta Via Correu</p>
+    </div>
+
+
+  </div>
+</div>
+<div class="fons">
+  <div class="stars-01"></div>
+  <div class="stars-02"></div>
+  <div class="stars-03"></div>
+  <div class="stars-04"></div>
+  <div class="stars-05"></div>
+</div>
+
+
+
+</body>
 </html>
