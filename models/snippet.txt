@@ -1,0 +1,1 @@
+<model-viewer bounds="tight" enable-pan src="UFOv2.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls environment-image="aircraft_workshop_01_1k.hdr" poster="poster.webp" shadow-intensity="1" exposure="0.6"> </model-viewer>

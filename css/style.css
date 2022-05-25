@@ -11,6 +11,53 @@
 }
 
 
+/* mobil */
+@media only screen and (max-width: 390px) {
+  body  {
+    width: 390px;
+    margin: none;
+  }
+  .containerbtn{
+    width: 300px;
+    display: block;
+  }
+  .imatge {
+    width: 300px;
+  }
+  .rainbow{
+    width: 300px;
+  }
+  .logo {
+    left: 0px;
+    width: 100%;
+    padding-top: 100px;
+  }
+  .textwelcome{
+    left: none;
+    right: 150px;
+    border: 1px solid green;
+  }
+  div.responsive {
+    display: ;
+    width: 385px;
+    margin: 6px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .titols{
+    font-size: 25px;
+    right:none;
+    border: 1px solid green;
+    padding-right:480px;
+
+  }
+  .whiteline{
+    text-align: left;
+  }
+
+
+}
+
 
 /* distribució pag */
 .item1 { 
@@ -148,9 +195,8 @@ z-index: 15;
  background-color: none;
  display: inline-flex;
  width: 1850px;
- height: 240px;
+ height: 200px;
  position: absolute;
- overflow: hidden;
  align-items: center;
 }
 
@@ -297,25 +343,11 @@ div.desc {
   margin-bottom: 200px;
 }
 
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
 .clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
-
 
 /*estrelles*/
 
@@ -497,3 +529,4 @@ div.desc {
     transform: translateY(-2000px);
   }
 }
+
