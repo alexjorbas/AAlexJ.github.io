@@ -270,7 +270,6 @@ z-index: 15;
 
 
 
-
 .titols{
   font-family: 'Josefin Sans', sans-serif;
   color: white;
@@ -279,6 +278,15 @@ z-index: 15;
   text-underline-offset: 3px;
   margin-top: 400px;
   right: 500px;
+}
+.titolvideo{
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  position: absolute;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  left: 165px;
+  margin-top: 3150px;
 }
 .textes{
   font-family: 'Josefin Sans', sans-serif;
